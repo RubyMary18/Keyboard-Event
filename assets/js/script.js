@@ -1,8 +1,8 @@
-const pressBtn = document.querySelector('.press');
-const eventKey = document.querySelector('.e-key');
-const eventKeycode = document.querySelector('.e-keycode');
-const eventCode = document.querySelector('.e-code');
-const list = document.querySelector('.key');
+const pressBtn = document.querySelector('.press'),
+     eventKey = document.querySelector('.e-key'),
+     eventKeycode = document.querySelector('.e-keycode'),
+     eventCode = document.querySelector('.e-code'),
+     list = document.querySelector('.key');
 
 window.addEventListener('keydown', (e) => {
     list.classList.add('show');
